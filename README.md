@@ -1,6 +1,5 @@
 Here’s your complete **README.md** content in code block format, suitable for a professional repository:
 
-```markdown
 # WhatsApp Messaging Integration with FastAPI
 
 > This project demonstrates sending WhatsApp messages using FastAPI and the 360dialog sandbox API, created as part of a technical assessment.
@@ -33,8 +32,6 @@ The objective was to:
     "detail": "{\"meta\": {\"success\": false, \"http_code\": 403, \"developer_message\": \"No permission for that number\"}}"
   }
   ```
-
----
 
 ## ✅ Workaround Used
 
