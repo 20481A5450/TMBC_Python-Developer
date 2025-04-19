@@ -1,5 +1,3 @@
-Here’s your complete **README.md** content in code block format, suitable for a professional repository:
-
 # WhatsApp Messaging Integration with FastAPI
 
 > This project demonstrates sending WhatsApp messages using FastAPI and the 360dialog sandbox API, created as part of a technical assessment.
@@ -37,6 +35,10 @@ The objective was to:
 
 I used the **360dialog Sandbox API**, which allows developers to send WhatsApp messages to their own number without requiring full Meta business account verification.
 
+- How to generate the API_KEY for 360Dialog Sandbox
+  [Visit the Official Documentation](https://docs.360dialog.com/partner/api-reference/sandbox)
+  Send a message - `START` to their official WhatsApp Business Number - `+49 30 609859535`
+  You get a response with the TEST_API_KEY with that you can message your number 
 ---
 
 ## 🧰 Technologies Used
