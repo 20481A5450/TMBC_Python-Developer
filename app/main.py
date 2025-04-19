@@ -1,6 +1,5 @@
 from fastapi import FastAPI, Request, HTTPException
 from app.whatsapp import send_whatsapp_message
-from app.utils import is_valid_phone
 
 app = FastAPI()
 
@@ -10,9 +9,7 @@ async def root():
 
 @app.get("/send_message")
 async def send_message(phone_number: str):
-    # if not is_valid_phone(phone_number):
-    #     raise HTTPException(status_code=400, detail="Invalid phone number format")
-    
+
     response = send_whatsapp_message(phone_number)
 
     try:    
