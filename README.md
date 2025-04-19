@@ -10,7 +10,7 @@ Here’s your complete **README.md** content in code block format, suitable for 
 
 The objective was to:
 - Build a backend service using **FastAPI** that can send messages to WhatsApp numbers.
-- Integrate it with **Meta's WhatsApp Business API** (or suitable alternative) for real-time communication.
+- Integrate it with **Meta's WhatsApp Business API** for real-time communication.
 - Keep the solution lightweight and focused on prototype-ready functionality.
 
 ---
@@ -35,7 +35,7 @@ The objective was to:
 
 ## ✅ Workaround Used
 
-We used the **360dialog Sandbox API**, which allows developers to send WhatsApp messages to their own number without requiring full Meta business account verification.
+I used the **360dialog Sandbox API**, which allows developers to send WhatsApp messages to their own number without requiring full Meta business account verification.
 
 ---
 
@@ -52,8 +52,8 @@ We used the **360dialog Sandbox API**, which allows developers to send WhatsApp 
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/whatsapp-fastapi-integration.git
-cd whatsapp-fastapi-integration
+git clone https://github.com/20481A5450/TMBC_Python-Developer.git
+cd TMBC_Python-Developer
 ```
 
 ### 2. Create a Virtual Environment
@@ -68,7 +68,7 @@ env\Scripts\activate     # on Windows
 pip install -r requirements.txt
 ```
 
-### 4. Create a `.env` file
+### 4. Rename the `example.env` to `.env` file
 ```ini
 # .env file
 D360_API_KEY=your_360dialog_test_key
@@ -97,27 +97,6 @@ Query Parameter:
 ## 📌 Notes
 
 - The 360dialog sandbox only allows sending messages to your **registered number**.
-- For production use, a proper **Meta Business Account** and **approved number** are required.
+- For other functonalities should use, a proper **Meta Business Account** and **approved number** are required.
 
 ---
-
-## 🧪 Future Enhancements
-
-- Add webhook support for receiving messages.
-- Integrate real-time message status tracking.
-- Replace sandbox with production Meta API once verification is complete.
-
----
-
-## 🤝 Acknowledgements
-
-Thanks to [360dialog](https://www.360dialog.com/) for providing an easier testing environment for WhatsApp API integration.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
-```
-
-Let me know if you want a `requirements.txt` file or folder structure to go along with this!
