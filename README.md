@@ -36,9 +36,9 @@ The objective was to:
 I used the **360dialog Sandbox API**, which allows developers to send WhatsApp messages to their own number without requiring full Meta business account verification.
 
 - How to generate the API_KEY for 360Dialog Sandbox
-  [Visit the Official Documentation](https://docs.360dialog.com/partner/api-reference/sandbox)
-  Send a message - `START` to their official WhatsApp Business Number - `+49 30 609859535`
-  You get a response with the TEST_API_KEY with that you can message your number 
+  - [Visit the Official Documentation](https://docs.360dialog.com/partner/api-reference/sandbox)
+  - Send a message - `START` to their official WhatsApp Business Number - `+49 30 609859535`
+  - You get a response with the TEST_API_KEY with that you can message your number 
 ---
 
 ## 🧰 Technologies Used
